@@ -25,9 +25,9 @@ public class ChatController {
          *
          * @param args Unused. Arguments to the program.
          */
-        String azureOpenaiKey = "bbdc128c20e84ce49384bb58308cf749";
-        String endpoint = "https://genai-codeoptimizer.openai.azure.com";
-        String deploymentOrModelId = "Code-Optimizer";
+        String azureOpenaiKey = "{azure openai key}";
+        String endpoint = "url";
+        String deploymentOrModelId = "{deploymentOrModelId}";
 
         OpenAIClient client = new OpenAIClientBuilder()
                 .endpoint(endpoint)
